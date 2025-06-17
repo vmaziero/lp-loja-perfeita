@@ -1,4 +1,3 @@
-// src/components/FaqSection.tsx
 import React, { useState } from 'react';
 import { AnimatePresence } from 'framer-motion';
 import { FaWhatsapp } from 'react-icons/fa';

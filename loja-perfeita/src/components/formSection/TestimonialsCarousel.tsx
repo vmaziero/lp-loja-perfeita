@@ -1,4 +1,3 @@
-// src/components/formSection/TestimonialsCarousel.tsx
 import { motion, useMotionValue, animate } from 'framer-motion';
 import styled from 'styled-components';
 import { useEffect, useRef, useState } from 'react';
@@ -36,7 +35,6 @@ const testimonials = [
   },
 ];
 
-// Styled Components
 const CarouselContainer = styled.div`
   overflow: hidden;
   width: 100%;
@@ -63,10 +61,10 @@ const Card = styled.div`
   scroll-snap-align: center;
   margin: 0 0.5rem;
 
-  width: calc(100vw - 2rem); // mobile padrão
+  width: calc(100vw - 2rem); 
 
   @media (min-width: 768px) {
-    width: 384px; // valor fixo calculado para desktop
+    width: 384px;
   }
 
   &:focus {

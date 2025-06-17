@@ -1,4 +1,3 @@
-// src/services/contatoService.ts
 import api from './api';
 
 export const criarContato = async (dados: {

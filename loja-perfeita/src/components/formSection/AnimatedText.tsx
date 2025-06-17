@@ -1,4 +1,3 @@
-// src/components/formSection/AnimatedText.tsx
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
